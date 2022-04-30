@@ -1,0 +1,14 @@
+.grid-container{
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10%;
+    justify-content: center;
+}
+.spacer{
+    margin-top: 25px;
+}
+.col{
+    columns: 1;
+    text-align: center;
+}
